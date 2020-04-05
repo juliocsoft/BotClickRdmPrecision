@@ -1,6 +1,6 @@
 while (true)
 {
-	CanClick(,,)
+	CanClick(1,1,0xFFFFFF)
 	sleep, 5000
 }
 
