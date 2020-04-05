@@ -1,15 +1,10 @@
 while (true)
 {
 	sleep, 100
-	CanClick(669,576,0x076618)	
-	CanClick(835,353,0x36ADD2)
-	CanClick(924,187,0x112244)
-	CanClick(1003,608,0xFFFF3B)
-	CanClick(1167,626,0xFFFF33)
-	CanClick(1268,554,0xFBD955)	
+	FoundPixelClickRdm(669,576,0x076618)
 }
 
-CanClick(x1, y1, cor)
+FoundPixelClickRdm(x1, y1, cor)
 {
 	PixelGetColor, color, x1, y1
 	
